@@ -22,7 +22,7 @@ if "messages" not in st.session_state.keys(): # Initialize the chat messages his
 
 @st.cache_resource(show_spinner=False)
 def load_data():
-    PERSIST_DIR = "./storage"
+    PERSIST_DIR = "./storage4"
     with st.spinner(text="Loading embeddings – hang tight! This should take about 1 minute."):
         storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
         index = load_index_from_storage(storage_context)
