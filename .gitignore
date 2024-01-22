@@ -1,0 +1,5 @@
+*.txt
+!requirements.txt
+*.db
+*.ipynb
+streamlit_sql_app.py
