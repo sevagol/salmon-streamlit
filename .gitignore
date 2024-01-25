@@ -4,3 +4,4 @@
 *.ipynb
 streamlit_sql_app.py
 strlam
+.streamlit
