@@ -1,3 +1,5 @@
 streamlit
-llama_index
-sqlalchemy
+transformers
+pinecone-client
+sentence_transformers
+openai
